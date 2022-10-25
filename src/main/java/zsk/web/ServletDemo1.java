@@ -28,7 +28,7 @@ public class ServletDemo1 extends HttpServlet {
         //request.getRequestDispatcher("/el-demo.jsp").forward(request,response);
         //request.getRequestDispatcher("/jstl-if.jsp").forward(request,response);
         request.getRequestDispatcher("/jstl-foreach.jsp").forward(request,response);
-        System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+        System.out.println("_______________________________________________");
     }
 
     @Override
